@@ -19,6 +19,9 @@ api = Api(app)
 # ModelLoad
 model = keras.models.load_model('chickens_96.42.h5')
 
+with open('Gitt\data.json') as f:
+  data = json.load(f)
+
 def classify(img_path):
     class_names=['Coccidiosis', 'Healthy', 'New Castle Disease', 'Salmonella']
     img = image.load_img(img_path, target_size=(150, 150))
@@ -44,6 +47,10 @@ parser.add_argument('file',
                     help='provide a file')
 
 class poopClassifier(Resource):
+    def get(self):
+        response = data
+        return response
+    
     def post(self):
         args = parser.parse_args()
         the_file = args['file']
@@ -55,7 +62,9 @@ class poopClassifier(Resource):
         # predict
         results = classify(ofname)
         # formatting the results as a JSON-serializable structure:
-        output = {'Penyakit': results}
+        output = {}
+
+        output = data[results]
 
         return output
     
