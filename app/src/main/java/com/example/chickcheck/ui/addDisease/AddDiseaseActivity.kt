@@ -77,6 +77,7 @@ class AddDiseaseActivity : AppCompatActivity() {
                                 .split(",")
                                 .map { it.trim() }
 
+
                             var penyakit = ""
                             var deskripsi = ""
                             var gejala = ""
