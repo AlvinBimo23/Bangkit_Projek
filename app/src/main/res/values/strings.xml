@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChickCheck</string>
+    <string name="content_logo_app">Logo Application</string>
+    <string name="content_photo_disease">Photo Disease</string>
+    <string name="content_camera">Camera Disease</string>
+    <string name="content_switch_camera">Switch Camera Front</string>
+    <string name="name_app">ChickCheck</string>
+    <string name="button_camera">Camera</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="button_upload">Upload</string>
+    <string name="name_disease">Nama Penyakit</string>
+    <string name="desc_disease">Deskripsi Penyakit</string>
+    <string name="medication_disease">Penanganan</string>
+    <string name="failed_show_picture">Failed to display image</string>
+    <string name="failed_picture">Failed to take pictures</string>
+    <string name="permissionCam">Can\'t do this feature</string>
+    <string name="indication"> Gejala</string>
+    <string name="photReqInput">Please enter an image first</string>
+
+</resources>
