@@ -1,0 +1,8 @@
+Flask
+Flask_RESTful
+Keras_Preprocessing
+numpy
+tensorflow
+Werkzeug
+gunicorn
+pillow

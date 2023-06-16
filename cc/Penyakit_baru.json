@@ -1,0 +1,25 @@
+{
+    "Healty": {
+        "Penyakit" : "-",
+        "Deskripsi" : "Ayam anda dalam kondisi sehat",
+        "Penanganan" : "-"
+    },
+    "Salmonella": {
+        "Penyakit" : "Salmonella",
+        "Deskripsi" : "Salmonella adalah penyakit yang disebabkan oleh bakteri. Penyakit ini dapat disebabkan oleh kandang yang tidak bersih, kualitas air yang kotor, atau pakan yang tercemar",
+        "Gejala" : "Diare, Penurunan jumlah produksi telur, kondisi lemas",
+        "Penanganan" : "Salmonella dapat diobati dengan pemberian antibiotik seperti Oxytetracycline. Oxytetracycline (OTC) digunakan dalam industri perunggasan dan biasanya diberikan kepada ayam melalui pakan dan air minum. Untuk pengobatan tunggal 0,25 ml / mg berat badan dengan injeksi satu tempat. Biasanya pengobatan tunggal akan cukup untuk penyakit yang rentan."
+    },
+    "Coccidiosis": {
+        "Penyakit" : "Coccidiosis",
+        "Deskripsi" : "Coccidiosis adalah penyakit yang disebabkan oleh parasit protozoa dari genus Eimeria pada ayam.Parasit ini dapat merusak dinding usus ayam dan menyebabkan gangguan pencernaan serta penyerapan nutrisi yang buruk.Infeksi coccidiosis paling sering terjadi pada ayam muda, terutama pada usia 3-6 minggu. Namun, ayam dewasa juga dapat terinfeksi dalam kondisi yang buruk.",
+        "Gejala" : "Diare,kehilangan nafsu makan, penurunan berat badan yang drastis, kondisi lemas, kepala lembek",
+        "Penanganan" : "Pengobatan dapat dilakukan dengan menambahkan Amprolium ke dalam persediaan air minum ayam, namun dalam beberapa kasus, di mana ayam yang sakit tidak cukup makan atau minum, obat diberikan secara oral. Pengobatan biasanya berlangsung selama 7 hari, meskipun ayam yang sakit sering kali menunjukkan perbaikan hanya dalam waktu 24 jam. Pada lingkungan yang hangat, basah, atau lembab, dosis kedua pengobatan dianjurkan setelah jeda waktu untuk memastikan pemberantasan infeksi secara menyeluruh. Amprolium juga dapat diberikan secara berkelanjutan, sebagai pencegahan penyakit. Untuk informasi lebih lanjut mengenai pilihan pengobatan dan pencegahan untuk hewan ternak Anda, konsultasikan dengan dokter hewan terdekat."
+    },
+    "New Castle": {
+        "Penyakit" : "New Castle",
+        "Deskripsi" : "Penyakit Newcastle adalah penyakit menular yang dapat menyebabkan kerugian ekonomi yang signifikan dalam industri perunggasan. Virus Newcastle disease virus (NDV) termasuk dalam keluarga Paramyxoviridae dan dapat menginfeksi sistem pernapasan, saraf, dan pencernaan ayam.",
+        "Gejala" : "Gangguan pernapasan, kondisi lemas, depresi, penurunan produksi telur, kehilangan nafsu makan, kejang-kejang",
+        "Penanganan" : "Tidak ada pengobatan khusus untuk penyakit Newcastle. Antibiotik dapat diberikan selama tiga hingga lima hari untuk mencegah infeksi bakteri sekunder. Meningkatkan suhu ruangan untuk anak ayam sebesar 5°F dapat membantu mengurangi kerugian."
+    }
+}
