@@ -1,5 +1,5 @@
 {
-    "Healty": {
+    "Healthy": {
         "Penyakit" : "-",
         "Deskripsi" : "Ayam anda dalam kondisi sehat",
         "Penanganan" : "-"
@@ -16,8 +16,8 @@
         "Gejala" : "Diare,kehilangan nafsu makan, penurunan berat badan yang drastis, kondisi lemas, kepala lembek",
         "Penanganan" : "Pengobatan dapat dilakukan dengan menambahkan Amprolium ke dalam persediaan air minum ayam, namun dalam beberapa kasus, di mana ayam yang sakit tidak cukup makan atau minum, obat diberikan secara oral. Pengobatan biasanya berlangsung selama 7 hari, meskipun ayam yang sakit sering kali menunjukkan perbaikan hanya dalam waktu 24 jam. Pada lingkungan yang hangat, basah, atau lembab, dosis kedua pengobatan dianjurkan setelah jeda waktu untuk memastikan pemberantasan infeksi secara menyeluruh. Amprolium juga dapat diberikan secara berkelanjutan, sebagai pencegahan penyakit. Untuk informasi lebih lanjut mengenai pilihan pengobatan dan pencegahan untuk hewan ternak Anda, konsultasikan dengan dokter hewan terdekat."
     },
-    "New Castle": {
-        "Penyakit" : "New Castle",
+    "New Castle Disease": {
+        "Penyakit" : "New Castle Disease",
         "Deskripsi" : "Penyakit Newcastle adalah penyakit menular yang dapat menyebabkan kerugian ekonomi yang signifikan dalam industri perunggasan. Virus Newcastle disease virus (NDV) termasuk dalam keluarga Paramyxoviridae dan dapat menginfeksi sistem pernapasan, saraf, dan pencernaan ayam.",
         "Gejala" : "Gangguan pernapasan, kondisi lemas, depresi, penurunan produksi telur, kehilangan nafsu makan, kejang-kejang",
         "Penanganan" : "Tidak ada pengobatan khusus untuk penyakit Newcastle. Antibiotik dapat diberikan selama tiga hingga lima hari untuk mencegah infeksi bakteri sekunder. Meningkatkan suhu ruangan untuk anak ayam sebesar 5°F dapat membantu mengurangi kerugian."
