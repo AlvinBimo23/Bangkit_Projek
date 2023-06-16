@@ -19,7 +19,7 @@ import com.example.chickcheck.R
 import com.example.chickcheck.utils.ViewModelFactory
 import com.example.chickcheck.camera.CameraActivity
 import com.example.chickcheck.databinding.ActivityAddDiseaseBinding
-import com.example.chickcheck.response.Data
+import com.example.chickcheck.response.ResponseDisease2
 import com.example.chickcheck.utils.reduceFileImage
 import com.example.chickcheck.utils.rotatePicture
 import com.example.chickcheck.utils.uriToFile
@@ -71,33 +71,9 @@ class AddDiseaseActivity : AppCompatActivity() {
                         }
                         is Result.Success -> {
                             binding.progressBar.visibility = View.INVISIBLE
-                            val dataArray = result.data
-                                .replace("[", "")
-                                .replace("]", "")
-                                .split(",")
-                                .map { it.trim() }
+                            val data = result.data
 
-
-                            var penyakit = ""
-                            var deskripsi = ""
-                            var gejala = ""
-                            var penanganan = ""
-
-                            for (item in dataArray) {
-                                val splitData = item.split(":")
-                                if (splitData.size == 2) {
-                                    val key = splitData[0].trim()
-                                    val value = splitData[1].trim()
-                                    when (key) {
-                                        "Penyakit" -> penyakit = value
-                                        "Deskripsi" -> deskripsi = value
-                                        "Gejala" -> gejala = value
-                                        "Penanganan" -> penanganan = value
-                                    }
-                                }
-                            }
-
-                            fun showSecondDialog(data: Data) {
+                            fun showSecondDialog(data: ResponseDisease2) {
                                 val dialog2 = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                                 dialog2.apply {
                                     titleText = "Penanganan"
@@ -109,7 +85,7 @@ class AddDiseaseActivity : AppCompatActivity() {
                                 }
                             }
 
-                            fun showThreeDialog(data: Data) {
+                            fun showThreeDialog(data: ResponseDisease2) {
                                 val dialog3 = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                                 dialog3.apply {
                                     titleText = "Gejala"
@@ -120,8 +96,6 @@ class AddDiseaseActivity : AppCompatActivity() {
                                     dialog3.show()
                                 }
                             }
-
-                            val data = Data(penyakit, deskripsi, gejala, penanganan)
 
                             val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                             dialog.apply {

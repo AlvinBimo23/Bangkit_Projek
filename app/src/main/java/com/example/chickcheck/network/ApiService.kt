@@ -1,5 +1,6 @@
 package com.example.chickcheck.network
 
+import com.example.chickcheck.response.ResponseDisease2
 import okhttp3.MultipartBody
 import retrofit2.Call
 import retrofit2.http.Multipart
@@ -11,5 +12,5 @@ interface ApiService {
     @POST("/predict")
     fun getDisease(
         @Part file: MultipartBody.Part
-    ): Call<Any>
+    ): Call<ResponseDisease2>
 }
